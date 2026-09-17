@@ -131,9 +131,43 @@ As análises incluem:
 
 > A análise permite acompanhar competências como desempenho, iniciativa, trabalho em equipe e organização, além de indicadores relacionados ao clima organizacional, liderança, oportunidades e valorização.
 
+### 📚 Metodologia de classificação
+
+Para facilitar a interpretação dos resultados, o dashboard transforma as notas médias em faixas qualitativas de desempenho profissional e maturidade organizacional.
+
+Essas classificações são apresentadas nos cartões, tabelas, gráficos e comparações individuais, permitindo que uma nota numérica seja interpretada em um contexto analítico mais claro.
+
+#### 👤 Classificação do desempenho profissional
+
+A avaliação do desempenho profissional é classificada em quatro níveis:
+
+| Faixa de nota | Classificação | Interpretação |
+|---:|---|---|
+| 0 a 4 | Insatisfatório | Profissionais que não atendem às expectativas mínimas de desempenho em várias áreas de seu trabalho |
+| 5 a 6 | Em desenvolvimento | Profissionais que demonstram potencial, mas ainda precisam de desenvolvimento em algumas áreas de seu trabalho |
+| 7 a 8 | Satisfatório | Profissionais que atendem consistentemente às expectativas em suas responsabilidades e funções designadas |
+| 9 a 10 | Excelente | Profissionais que consistentemente atendem e superam as expectativas em todas as áreas de seu trabalho |
+
+![Tooltip com a metodologia de classificação do desempenho profissional](./assets/tooltip_profissional.PNG)
+
+#### 🏢 Classificação da maturidade da empresa
+
+A percepção sobre a empresa é classificada em quatro níveis de maturidade organizacional:
+
+| Faixa de nota | Classificação | Interpretação |
+|---:|---|---|
+| 0 a 4 | Maturidade deficiente | A empresa enfrenta desafios significativos que podem impactar negativamente o clima, o engajamento, a eficácia e sua capacidade de atingir objetivos estratégicos |
+| 5 a 6 | Maturidade emergente | A empresa está em fase inicial de desenvolvimento, realizando esforços para melhorar e corrigir áreas de fraqueza identificadas |
+| 7 a 8 | Maturidade competente | A empresa demonstra capacidade de desenvolvimento e busca consolidar melhorias nas dimensões avaliadas |
+| 9 a 10 | Maturidade excelente | A empresa demonstra maturidade e desempenho excepcional, estabelecendo-se como referência em Gestão de Pessoas |
+
+![Tooltip com a metodologia de classificação da maturidade da empresa](./assets/tooltip_empresa.PNG)
+
+> As categorias transformam médias numéricas em interpretações qualitativas. Elas apoiam a leitura dos indicadores, mas não substituem análises contextuais, avaliações qualitativas ou outras fontes de evidência organizacional.
+
 ### 🧑‍💼 Comparação individual de desempenho
 
-A tela comparativa apresenta o desempenho de um funcionário em relação às médias gerais do conjunto analisado, separando as perspectivas de **desempenho profissional** e **percepção sobre a empresa**.
+A tela comparativa apresenta o desempenho de um funcionário em relação às médias gerais do conjunto analisado, separando as perspectivas de desempenho profissional e percepção sobre a empresa.
 
 ![Comparação individual de desempenho profissional e desempenho organizacional](./assets/comparacao_desempenho.PNG)
 
@@ -331,7 +365,9 @@ people_analytics/
     ├── desempenho.PNG
     ├── absenteismo.PNG
     ├── detalahamento_turnover.PNG
-    └── comparacao_desempenho.PNG
+    ├── comparacao_desempenho.PNG
+    ├── tooltip_profissional.PNG
+    └── tooltip_empresa.PNG
 ```
 
 ---
