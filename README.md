@@ -7,8 +7,16 @@
 ![Capa do projeto People Analytics com módulos de Turnover, Desempenho e Absenteísmo](./assets/capa.PNG)
 
 <p align="center">
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiYWU1NDZmMjItZWNkMi00OTE3LThjNWQtYWQ1YWIwZTg0YmVhIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9&pageName=ReportSectiona90b31d0e27e9752c099" target="_blank">
+    <img src="https://img.shields.io/badge/Acessar%20Dashboard-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Acessar dashboard interativo no Power BI">
+  </a>
+</p>
+
+<p align="center">
   <strong>Turnover • Desempenho • Absenteísmo</strong>
 </p>
+
+> 🌐 O dashboard está disponível publicamente no Power BI e utiliza dados fictícios exclusivamente para demonstração metodológica e educacional.
 
 ---
 
@@ -350,12 +358,32 @@ O modelo foi estruturado com tabelas fato e dimensões relacionadas por funcion�
 
 ---
 
+## 🌐 Acesse o dashboard interativo
+
+O dashboard está publicado publicamente no Power BI e pode ser explorado diretamente pelo link abaixo:
+
+<p align="center">
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiYWU1NDZmMjItZWNkMi00OTE3LThjNWQtYWQ1YWIwZTg0YmVhIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9&pageName=ReportSectiona90b31d0e27e9752c099" target="_blank">
+    <img src="https://img.shields.io/badge/Acessar%20Dashboard-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Acessar dashboard interativo no Power BI">
+  </a>
+</p>
+
+### Como explorar
+
+1. Utilize os filtros de período, cargo, centro de custo e demais dimensões disponíveis.
+2. Navegue pelos módulos de Turnover, Desempenho e Absenteísmo.
+3. Passe o cursor sobre os visuais e ícones de informação para consultar detalhes, tooltips e critérios de classificação.
+4. Utilize as páginas de detalhamento e comparação individual para aprofundar a análise.
+
+> O relatório utiliza dados fictícios e está disponível exclusivamente para demonstração metodológica, educacional e de portfólio.
+
+---
+
 ## 🗂️ Estrutura do repositório
 
 ```text
 people_analytics/
 ├── README.md
-├── people-analytics-turnover.pbix
 ├── artigo-cientifico.pdf
 ├── relatorio-empresarial.pdf
 ├── LICENSE
@@ -369,32 +397,6 @@ people_analytics/
     ├── tooltip_profissional.PNG
     └── tooltip_empresa.PNG
 ```
-
----
-
-## ▶️ Como visualizar o projeto
-
-1. Instale o [Power BI Desktop](https://www.microsoft.com/power-platform/products/power-bi/desktop).
-
-2. Clone este repositório:
-
-   ```bash
-   git clone https://github.com/VitorCamposAds/people_analytics.git
-   ```
-
-3. Acesse a pasta do projeto:
-
-   ```bash
-   cd people_analytics
-   ```
-
-4. Abra o arquivo `people-analytics-turnover.pbix` no Power BI Desktop.
-
-5. Caso o Power BI solicite a atualização das fontes, ajuste os caminhos ou conexões de dados necessários.
-
-6. Atualize os dados somente se possuir autorização para utilizá-los.
-
-7. Navegue pelas páginas do relatório e utilize os filtros para explorar os indicadores.
 
 ---
 
@@ -414,6 +416,7 @@ people_analytics/
 ## 🛠️ Tecnologias utilizadas
 
 - Microsoft Power BI Desktop
+- Power BI Service
 - Power Query
 - Linguagem M
 - DAX
