@@ -1,21 +1,43 @@
 # 🧑‍💼 People Analytics — Turnover, Desempenho e Absenteísmo
 
-> **Dashboard analítico em Power BI** para exploração de indicadores de gestão de pessoas: turnover demissional, absenteísmo, desempenho profissional e percepção dos funcionários sobre a organização.  
-> 🎓 *Projeto profissional adaptado para fins metodológicos e educacionais. Dados fictícios e medidas ajustadas à realidade deste dataset demonstrativo.*
+> **Dashboard analítico desenvolvido no Microsoft Power BI** para explorar indicadores estratégicos de gestão de pessoas, com foco em turnover demissional, desempenho profissional, percepção organizacional e absenteísmo.
+>
+> 🎓 Projeto profissional adaptado para fins metodológicos e educacionais. Os dados utilizados são fictícios, e as medidas foram ajustadas à realidade deste dataset demonstrativo.
+
+<p align="center">
+  <img src="assets/capa.jpg" alt="Capa do projeto People Analytics com módulos de Turnover, Desempenho e Absenteísmo" width="900">
+</p>
+
+<p align="center">
+  <strong>Turnover • Desempenho • Absenteísmo</strong>
+</p>
 
 ---
 
 ## 📌 Visão geral
 
-Este projeto integra dados de Recursos Humanos em um modelo analítico no **Power BI**, permitindo explorar indicadores por:
+Este projeto integra dados de Recursos Humanos em um modelo analítico no **Power BI**, permitindo analisar indicadores de gestão de pessoas por diferentes perspectivas organizacionais e temporais.
+
+A solução permite explorar informações por:
 
 - Período
+- Funcionário
 - Departamento
 - Cargo
 - Unidade
 - Centro de custo
 - Motivo de desligamento
-- Tipos de ocorrência de absenteísmo
+- Tipo de afastamento
+- Ocorrências de absenteísmo
+- Competências avaliadas
+
+O dashboard foi estruturado em três módulos principais:
+
+| Módulo | Objetivo |
+|---|---|
+| 🔁 Turnover | Analisar desligamentos, contratações, turnover, causas de afastamento e possíveis más contratações |
+| ⭐ Desempenho | Avaliar desempenho profissional, competências e percepção dos funcionários sobre a organização |
+| 🕒 Absenteísmo | Monitorar horas ausentes, custos, motivos, cargos e centros de custo com maior incidência |
 
 A solução foi construída com:
 
@@ -23,7 +45,8 @@ A solução foi construída com:
 - 🧠 Modelagem semântica no **Power BI**
 - 🧮 Medidas analíticas em **DAX**
 - 📅 Calendário para análises mensais, anuais e comparações temporais
-- 📊 Dashboards interativos com filtros e indicadores-chave
+- 📊 Dashboards interativos com filtros, KPIs e análises detalhadas
+- 🗂️ Git e GitHub para versionamento e documentação
 
 ---
 
@@ -32,17 +55,19 @@ A solução foi construída com:
 Os objetivos específicos do projeto são:
 
 - Descrever a evolução dos principais indicadores de gestão de pessoas
-- Calcular **turnover**, **headcount**, **absenteísmo** e **contratações malsucedidas**
-- Comparar os indicadores de **2020** com os resultados de **2019**
+- Calcular turnover, headcount, absenteísmo e contratações malsucedidas
+- Comparar os indicadores de 2020 com os resultados de 2019
 - Analisar desligamentos por período, departamento, cargo, centro de custo e motivo
-- Avaliar o desempenho profissional e a percepção sobre a organização
+- Avaliar o desempenho profissional e a percepção dos funcionários sobre a organização
 - Cruzar informações de desligamento, desempenho e absenteísmo
 - Identificar possíveis desligamentos de profissionais com desempenho elevado
-- Disponibilizar os resultados em dashboards interativos
+- Disponibilizar os resultados em dashboards interativos para apoio à análise gerencial
 
 ---
 
 ## 📊 Principais resultados
+
+Os resultados abaixo correspondem ao recorte analisado no projeto:
 
 | Indicador | Resultado |
 |---|---:|
@@ -57,6 +82,95 @@ Os objetivos específicos do projeto são:
 | Contratações malsucedidas em 2020 | **16** |
 
 > A análise identificou desligamentos envolvendo profissionais com desempenho elevado e baixo absenteísmo. Portanto, os dados não sustentam a interpretação de que todos os desligamentos sejam explicados exclusivamente por baixo desempenho e alto absenteísmo.
+
+---
+
+## 🔁 Módulo de turnover
+
+O módulo de turnover permite acompanhar a movimentação de funcionários e investigar os principais fatores relacionados aos desligamentos.
+
+Entre as análises disponíveis estão:
+
+- Turnover mensal e anual
+- Comparação com metas de turnover
+- Desligamentos por tipo de afastamento
+- Desligamentos por grupo de cargos
+- Desligamentos por centro de custo
+- Causa de afastamento e motivo informado pelo gestor
+- Perfil de retenção por faixa etária e tempo de empresa
+- Identificação de contratações malsucedidas
+
+<p align="center">
+  <img src="assets/turnover.jpg" alt="Dashboard Power BI de turnover com indicadores, gráficos e tabelas de desligamentos" width="900">
+</p>
+
+> A página principal de turnover consolida indicadores de desligamentos, turnover, más contratações, causas de afastamento, motivos gerenciais, centros de custo e grupos de cargos.
+
+### 🔎 Detalhamento dos desligamentos
+
+A página de detalhamento permite investigar os desligamentos individualmente, cruzando informações como causa de afastamento, motivo do gestor, data de desligamento, desempenho profissional, percepção da empresa e taxa de absenteísmo.
+
+<p align="center">
+  <img src="assets/detalahamento_turnover.jpg" alt="Dashboard de detalhamento de desligamentos com desempenho e absenteísmo dos funcionários" width="900">
+</p>
+
+> Essa visão é importante para evitar interpretações simplificadas. Um desligamento pode envolver fatores distintos, e os indicadores de desempenho ou absenteísmo não devem ser analisados isoladamente.
+
+---
+
+## ⭐ Módulo de desempenho
+
+O módulo de desempenho apresenta indicadores relacionados às avaliações profissionais e à percepção dos funcionários sobre a organização.
+
+As análises incluem:
+
+- Média de desempenho profissional
+- Média de desempenho organizacional
+- Evolução mensal das avaliações
+- Comparação entre desempenho individual e média geral
+- Desempenho por cargo
+- Avaliação por competências
+- Listagem de funcionários e status de desempenho
+- Análise individual comparativa
+
+<p align="center">
+  <img src="assets/desempenho.jpg" alt="Dashboard Power BI de desempenho profissional e desempenho da empresa" width="900">
+</p>
+
+> A análise permite acompanhar competências como desempenho, iniciativa, trabalho em equipe e organização, além de indicadores relacionados ao clima organizacional, liderança, oportunidades e valorização.
+
+### 🧑‍💼 Comparação individual de desempenho
+
+A tela comparativa apresenta o desempenho de um funcionário em relação às médias gerais do conjunto analisado.
+
+<p align="center">
+  <img src="assets/comparacao_desempenho.jpg" alt="Comparação individual de desempenho profissional e desempenho organizacional" width="900">
+</p>
+
+> A comparação utiliza gráficos de radar para confrontar competências profissionais e organizacionais. Essa visualização deve ser usada como apoio à análise, e não como critério isolado para decisões sobre pessoas.
+
+---
+
+## 🕒 Módulo de absenteísmo
+
+O módulo de absenteísmo apresenta a distribuição das ausências, suas horas acumuladas, custos estimados e os principais motivos registrados.
+
+Entre as análises disponíveis estão:
+
+- Percentual de absenteísmo por período
+- Horas de absenteísmo
+- Horas normais trabalhadas
+- Custo associado ao absenteísmo
+- Absenteísmo por funcionário
+- Absenteísmo por cargo
+- Absenteísmo por centro de custo
+- Horas por motivo de ocorrência
+
+<p align="center">
+  <img src="assets/absenteismo.jpg" alt="Dashboard Power BI de absenteísmo com horas, custos, cargos e centros de custo" width="900">
+</p>
+
+> A análise combina frequência, volume de horas e custo, permitindo identificar áreas, cargos e tipos de ocorrência com maior impacto nos indicadores de ausência.
 
 ---
 
@@ -196,17 +310,19 @@ CALCULATE(
 
 ## 🗃️ Modelo de dados
 
-O modelo utiliza tabelas de fatos e dimensões relacionadas por funcionários, datas e demais chaves organizacionais.
+O modelo foi estruturado com tabelas fato e dimensões relacionadas por funcionários, datas e chaves organizacionais.
 
 ### Principais tabelas
 
-- `fContrato`: admissões, contratos e desligamentos
-- `fFichaFinanceira`: horas, eventos e valores financeiros relacionados ao absenteísmo
-- `fAvaliaçãoDesempenho`: notas de desempenho profissional
-- `fDesempenhoEmpresa`: avaliações da percepção sobre a organização
-- `dFuncionarios`: dimensão de funcionários
-- `dCalendario`: calendário utilizado nas análises temporais
-- Dimensões organizacionais: departamento, cargo, unidade e centro de custo
+| Tabela | Descrição |
+|---|---|
+| `fContrato` | Admissões, contratos, situações e desligamentos |
+| `fFichaFinanceira` | Horas, eventos e valores financeiros relacionados ao absenteísmo |
+| `fAvaliaçãoDesempenho` | Notas de desempenho profissional |
+| `fDesempenhoEmpresa` | Avaliações de percepção sobre a organização |
+| `dFuncionarios` | Dimensão de funcionários |
+| `dCalendario` | Calendário utilizado nas análises temporais |
+| Dimensões organizacionais | Departamento, cargo, unidade e centro de custo |
 
 ---
 
@@ -217,46 +333,68 @@ people-analytics-powerbi/
 ├── README.md
 ├── people-analytics-turnover.pbix
 ├── artigo-cientifico.pdf
-└── relatorio-empresarial.pdf
+├── relatorio-empresarial.pdf
+├── LICENSE
+└── assets/
+    ├── capa.jpg
+    ├── turnover.jpg
+    ├── desempenho.jpg
+    ├── absenteismo.jpg
+    ├── detalahamento_turnover.jpg
+    └── comparacao_desempenho.jpg
 ```
 
 ---
 
 ## ▶️ Como visualizar o projeto
 
-1. Instale o [Power BI Desktop](https://www.microsoft.com/power-platform/products/power-bi/desktop)
+1. Instale o [Power BI Desktop](https://www.microsoft.com/power-platform/products/power-bi/desktop).
+
 2. Clone este repositório:
 
    ```bash
    git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
    ```
 
-3. Abra o arquivo `people-analytics-turnover.pbix`
-4. Caso o Power BI solicite atualização das fontes, ajuste os caminhos ou conexões de dados
-5. Atualize os dados somente se possuir autorização para utilizá-los
-6. Navegue pelas páginas do relatório e utilize os filtros para explorar os indicadores
+3. Acesse a pasta do projeto:
+
+   ```bash
+   cd NOME-DO-REPOSITORIO
+   ```
+
+4. Abra o arquivo `people-analytics-turnover.pbix` no Power BI Desktop.
+
+5. Caso o Power BI solicite a atualização das fontes, ajuste os caminhos ou conexões de dados necessários.
+
+6. Atualize os dados somente se possuir autorização para utilizá-los.
+
+7. Navegue pelas páginas do relatório e utilize os filtros para explorar os indicadores.
 
 ---
 
 ## ⚠️ Limitações
 
-- A análise contempla apenas os anos de **2019** e **2020**
-- O estudo é **descritivo e exploratório**
-- Os resultados **não demonstram relações de causa e efeito**
-- A qualidade dos indicadores depende da completude e consistência dos registros administrativos
-- Avaliações de desempenho podem conter subjetividade e diferenças entre avaliadores
-- As medidas de headcount, admissões e demissões são baseadas em registros de contrato
-- O dashboard não substitui entrevistas de desligamento, pesquisas de clima ou análises qualitativas
+- A análise contempla apenas os anos de **2019** e **2020**.
+- O estudo possui caráter **descritivo e exploratório**.
+- Os resultados não demonstram relações de causa e efeito.
+- A qualidade dos indicadores depende da completude, padronização e consistência dos registros administrativos.
+- Avaliações de desempenho podem apresentar subjetividade e diferenças entre avaliadores.
+- As medidas de headcount, admissões e demissões são baseadas em registros de contrato.
+- O headcount não deve ser interpretado automaticamente como uma contagem distinta de pessoas.
+- O dashboard não substitui entrevistas de desligamento, pesquisas de clima, avaliações qualitativas ou políticas de gestão de pessoas.
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 
 - Microsoft Power BI Desktop
-- Power Query / linguagem M
+- Power Query
+- Linguagem M
 - DAX
-- Modelagem dimensional e calendário analítico
-- Git e GitHub para versionamento e documentação
+- Modelagem dimensional
+- Calendário analítico
+- Git
+- GitHub
 
 ---
 
@@ -275,4 +413,6 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## 🧭 Aviso metodológico
 
-> Este dashboard foi desenvolvido para apoiar a exploração de indicadores de People Analytics. Os resultados devem ser interpretados em conjunto com o contexto organizacional, a qualidade dos dados e outras fontes de informação. O Power BI organiza evidências; não deve ser utilizado isoladamente para tomar decisões sobre pessoas.
+> Este dashboard foi desenvolvido para apoiar a exploração de indicadores de People Analytics. Os resultados devem ser interpretados em conjunto com o contexto organizacional, a qualidade dos dados e outras fontes de informação.
+>
+> O Power BI organiza evidências e facilita análises visuais; ele não deve ser utilizado isoladamente para tomar decisões sobre pessoas.
