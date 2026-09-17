@@ -4,9 +4,7 @@
 >
 > 🎓 Projeto profissional adaptado para fins metodológicos e educacionais. Os dados utilizados são fictícios, e as medidas foram ajustadas à realidade deste dataset demonstrativo.
 
-<p align="center">
-  <img src="assets/capa.PNG" alt="Capa do projeto People Analytics com módulos de Turnover, Desempenho e Absenteísmo" width="900">
-</p>
+![Capa do projeto People Analytics com módulos de Turnover, Desempenho e Absenteísmo](./assets/capa.PNG)
 
 <p align="center">
   <strong>Turnover • Desempenho • Absenteísmo</strong>
@@ -100,9 +98,7 @@ Entre as análises disponíveis estão:
 - Perfil de retenção por faixa etária e tempo de empresa
 - Identificação de contratações malsucedidas
 
-<p align="center">
-  <img src="assets/turnover.PNG" alt="Dashboard Power BI de turnover com indicadores, gráficos e tabelas de desligamentos" width="900">
-</p>
+![Dashboard Power BI de turnover com indicadores, gráficos e tabelas de desligamentos](./assets/turnover.PNG)
 
 > A página principal de turnover consolida indicadores de desligamentos, turnover, más contratações, causas de afastamento, motivos gerenciais, centros de custo e grupos de cargos.
 
@@ -110,9 +106,7 @@ Entre as análises disponíveis estão:
 
 A página de detalhamento permite investigar os desligamentos individualmente, cruzando informações como causa de afastamento, motivo do gestor, data de desligamento, desempenho profissional, percepção da empresa e taxa de absenteísmo.
 
-<p align="center">
-  <img src="assets/detalahamento_turnover.PNG" alt="Dashboard de detalhamento de desligamentos com desempenho e absenteísmo dos funcionários" width="900">
-</p>
+![Dashboard de detalhamento de desligamentos com desempenho e absenteísmo dos funcionários](./assets/detalahamento_turnover.PNG)
 
 > Essa visão é importante para evitar interpretações simplificadas. Um desligamento pode envolver fatores distintos, e os indicadores de desempenho ou absenteísmo não devem ser analisados isoladamente.
 
@@ -133,21 +127,19 @@ As análises incluem:
 - Listagem de funcionários e status de desempenho
 - Análise individual comparativa
 
-<p align="center">
-  <img src="assets/desempenho.PNG" alt="Dashboard Power BI de desempenho profissional e desempenho da empresa" width="900">
-</p>
+![Dashboard Power BI de desempenho profissional e desempenho da empresa](./assets/desempenho.PNG)
 
 > A análise permite acompanhar competências como desempenho, iniciativa, trabalho em equipe e organização, além de indicadores relacionados ao clima organizacional, liderança, oportunidades e valorização.
 
 ### 🧑‍💼 Comparação individual de desempenho
 
-A tela comparativa apresenta o desempenho de um funcionário em relação às médias gerais do conjunto analisado.
+A tela comparativa apresenta o desempenho de um funcionário em relação às médias gerais do conjunto analisado, separando as perspectivas de **desempenho profissional** e **percepção sobre a empresa**.
 
-<p align="center">
-  <img src="assets/comparacao_desempenho.PNG" alt="Comparação individual de desempenho profissional e desempenho organizacional" width="900">
-</p>
+![Comparação individual de desempenho profissional e desempenho organizacional](./assets/comparacao_desempenho.PNG)
 
-> A comparação utiliza gráficos de radar para confrontar competências profissionais e organizacionais. Essa visualização deve ser usada como apoio à análise, e não como critério isolado para decisões sobre pessoas.
+> A visualização utiliza gráficos de radar para comparar dimensões como desempenho, iniciativa, trabalho em equipe e organização, além de clima organizacional, liderança inspiradora, oportunidades e valorização.
+>
+> Essa análise deve ser usada como apoio à investigação dos dados, e não como critério isolado para decisões sobre pessoas.
 
 ---
 
@@ -166,9 +158,7 @@ Entre as análises disponíveis estão:
 - Absenteísmo por centro de custo
 - Horas por motivo de ocorrência
 
-<p align="center">
-  <img src="assets/absenteismo.PNG" alt="Dashboard Power BI de absenteísmo com horas, custos, cargos e centros de custo" width="900">
-</p>
+![Dashboard Power BI de absenteísmo com horas, custos, cargos e centros de custo](./assets/absenteismo.PNG)
 
 > A análise combina frequência, volume de horas e custo, permitindo identificar áreas, cargos e tipos de ocorrência com maior impacto nos indicadores de ausência.
 
@@ -329,19 +319,19 @@ O modelo foi estruturado com tabelas fato e dimensões relacionadas por funcion�
 ## 🗂️ Estrutura do repositório
 
 ```text
-people-analytics-powerbi/
+people_analytics/
 ├── README.md
 ├── people-analytics-turnover.pbix
 ├── artigo-cientifico.pdf
 ├── relatorio-empresarial.pdf
 ├── LICENSE
 └── assets/
-    ├── capa.jpg
-    ├── turnover.jpg
-    ├── desempenho.jpg
-    ├── absenteismo.jpg
-    ├── detalahamento_turnover.jpg
-    └── comparacao_desempenho.jpg
+    ├── capa.PNG
+    ├── turnover.PNG
+    ├── desempenho.PNG
+    ├── absenteismo.PNG
+    ├── detalahamento_turnover.PNG
+    └── comparacao_desempenho.PNG
 ```
 
 ---
@@ -353,13 +343,13 @@ people-analytics-powerbi/
 2. Clone este repositório:
 
    ```bash
-   git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+   git clone https://github.com/VitorCamposAds/people_analytics.git
    ```
 
 3. Acesse a pasta do projeto:
 
    ```bash
-   cd NOME-DO-REPOSITORIO
+   cd people_analytics
    ```
 
 4. Abra o arquivo `people-analytics-turnover.pbix` no Power BI Desktop.
