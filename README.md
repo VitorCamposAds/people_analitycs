@@ -5,7 +5,7 @@
 > 🎓 Projeto profissional adaptado para fins metodológicos e educacionais. Os dados utilizados são fictícios, e as medidas foram ajustadas à realidade deste dataset demonstrativo.
 
 <p align="center">
-  <img src="assets/capa.jpg" alt="Capa do projeto People Analytics com módulos de Turnover, Desempenho e Absenteísmo" width="900">
+  <img src="assets/capa.PNG" alt="Capa do projeto People Analytics com módulos de Turnover, Desempenho e Absenteísmo" width="900">
 </p>
 
 <p align="center">
@@ -101,7 +101,7 @@ Entre as análises disponíveis estão:
 - Identificação de contratações malsucedidas
 
 <p align="center">
-  <img src="assets/turnover.jpg" alt="Dashboard Power BI de turnover com indicadores, gráficos e tabelas de desligamentos" width="900">
+  <img src="assets/turnover.PNG" alt="Dashboard Power BI de turnover com indicadores, gráficos e tabelas de desligamentos" width="900">
 </p>
 
 > A página principal de turnover consolida indicadores de desligamentos, turnover, más contratações, causas de afastamento, motivos gerenciais, centros de custo e grupos de cargos.
@@ -111,7 +111,7 @@ Entre as análises disponíveis estão:
 A página de detalhamento permite investigar os desligamentos individualmente, cruzando informações como causa de afastamento, motivo do gestor, data de desligamento, desempenho profissional, percepção da empresa e taxa de absenteísmo.
 
 <p align="center">
-  <img src="assets/detalahamento_turnover.jpg" alt="Dashboard de detalhamento de desligamentos com desempenho e absenteísmo dos funcionários" width="900">
+  <img src="assets/detalahamento_turnover.PNG" alt="Dashboard de detalhamento de desligamentos com desempenho e absenteísmo dos funcionários" width="900">
 </p>
 
 > Essa visão é importante para evitar interpretações simplificadas. Um desligamento pode envolver fatores distintos, e os indicadores de desempenho ou absenteísmo não devem ser analisados isoladamente.
@@ -134,7 +134,7 @@ As análises incluem:
 - Análise individual comparativa
 
 <p align="center">
-  <img src="assets/desempenho.jpg" alt="Dashboard Power BI de desempenho profissional e desempenho da empresa" width="900">
+  <img src="assets/desempenho.PNG" alt="Dashboard Power BI de desempenho profissional e desempenho da empresa" width="900">
 </p>
 
 > A análise permite acompanhar competências como desempenho, iniciativa, trabalho em equipe e organização, além de indicadores relacionados ao clima organizacional, liderança, oportunidades e valorização.
@@ -144,7 +144,7 @@ As análises incluem:
 A tela comparativa apresenta o desempenho de um funcionário em relação às médias gerais do conjunto analisado.
 
 <p align="center">
-  <img src="assets/comparacao_desempenho.jpg" alt="Comparação individual de desempenho profissional e desempenho organizacional" width="900">
+  <img src="assets/comparacao_desempenho.PNG" alt="Comparação individual de desempenho profissional e desempenho organizacional" width="900">
 </p>
 
 > A comparação utiliza gráficos de radar para confrontar competências profissionais e organizacionais. Essa visualização deve ser usada como apoio à análise, e não como critério isolado para decisões sobre pessoas.
@@ -167,7 +167,7 @@ Entre as análises disponíveis estão:
 - Horas por motivo de ocorrência
 
 <p align="center">
-  <img src="assets/absenteismo.jpg" alt="Dashboard Power BI de absenteísmo com horas, custos, cargos e centros de custo" width="900">
+  <img src="assets/absenteismo.PNG" alt="Dashboard Power BI de absenteísmo com horas, custos, cargos e centros de custo" width="900">
 </p>
 
 > A análise combina frequência, volume de horas e custo, permitindo identificar áreas, cargos e tipos de ocorrência com maior impacto nos indicadores de ausência.
